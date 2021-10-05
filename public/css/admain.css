@@ -1,0 +1,196 @@
+.navbar-light  .admain-brand{
+    color:#002d5b;
+}
+
+.contact-me{
+    background: url(images/admainSideImage/side4.jpg) no-repeat fixed center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.contact-me .filed{
+
+    background-color:rgba(0,45,91,0.3);
+    min-height:515px;
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#fff;
+
+}
+.contact-me .filed p{
+    margin-bottom:30px;
+}
+.contact-me .filed textarea.form-control{
+    height:113px;
+}
+.contact-me .filed .btn-block{
+    height:48px;
+}
+.contact-me input[type="text"],
+.contact-me  input[type="password"],
+.contact-me  input[type="file"]{
+    background-color: rgba(0,45,91,0.6);
+    color:#fff;
+    border: none;
+}
+.manage_admain{
+    background:url(images/admainSideImage/bac2.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 515px;
+
+}
+.manage_admain .data{
+    padding-top:39px;
+    padding-bottom:40px;
+    background-color:rgba(0,45,91,0.3);
+    color:#fff;
+    min-height: 620px;
+}
+.manage_admain .data .table thead th{
+    background-color:rgb(0,45,91) ;
+    border:1px solid rgb(0,45,91);
+}
+.manage_admain .data .table-striped tbody tr:nth-of-type(odd){
+    background-color: #fff;
+    color:rgb(0,45,91);
+}
+.manage_admain .data .table-striped tbody tr:nth-of-type(even)
+{
+    background-color: #fff;
+    color:rgb(0,45,91);
+}
+.manage_admain .data .btn-darkblue{
+    color: #fff;
+    background-color: rgb(0,45,91);
+    border-color: rgb(0,45,91);
+    box-shadow: none;
+}
+.pag .pagination{
+    margin: -38px 480px;
+}
+/***************************************** start manage vendor page*******************************/
+.manage_vendor_heading{
+    color:#001f3f;
+}
+.vendor-box-data{
+    height: 270px;
+    border:1px solid lightgray;
+    margin-bottom: 30px;
+}
+.left-side-vendor-box{
+    float: left;
+    width:40%;
+    height: 100%;
+    background-color: #e3342f;
+}
+.right-side-vendor-box{
+    float: left;
+    width:60%;
+    height:100%;
+    background-color: #fff;
+    color:#001f3f;
+}
+.right-side-vendor-box i:first-of-type{
+    padding-top:20px;
+}
+.right-side-vendor-box i{
+    padding-left:15px;
+    padding-top:10px;
+}
+.right-side-vendor-box h5 , .span_manage_vendor{
+    padding-top: 0px;
+    padding-left: 15px;
+    display: block;
+
+}
+
+.right-side-vendor-box h5 i, .span_manage_vendor i{
+    padding-right: 15px;
+}
+.right-side-vendor-box a{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    color: #FF656A;
+
+}
+
+.manage_items_heading{
+    color:#001f3f;
+}
+.table-dark td{
+ background-color: #fff;
+    color:#001f3f;
+    font-weight: 400;
+    font-size:20px;
+}
+.table-dark th{
+    background-color: #001f3f;
+    color:#fff;
+
+}
+.row_data_vendor_and_item td:nth-child(n+2){
+    padding-top:70px;
+}
+.row_data_vendor_and_item td:first-child{
+    border-bottom-color:lightgray;
+    border-left:1px solid lightgray;
+}
+.row_data_vendor_and_item td:last-child{
+    border-right:1px solid lightgray;
+}
+.row_data_vendor_and_item td:last-child{
+    border-bottom: 1px solid #001f3f;
+}
+@media(max-width:767px){
+    .table-responsive-design {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.show-item{
+    display:flex;
+    flex-flow: column;
+    color:#001f3f;
+}
+.show-item:hover{
+    color:#FF656A;
+}
+.alert-no-item-added{
+    font-size:20px;
+    color:#FF656A;
+    border:1px solid lightgray;
+    width:800px;
+    padding:15px;
+    border-radius: 7px;
+    border-left: 5px solid #FF656A;
+    margin:10px auto;
+
+}
+
+/* home admain  style */
+
+
+.custom-display-small {
+    font-size: 1.5rem;
+    font-weight: 330;
+    line-height: 1.2;
+}
+.custom-display-medium {
+    font-size: 2.5rem;
+    font-weight: 330;
+    line-height: 1.2;
+}
+
+#save:hover ,#save:active ,#see-more:hover ,#see-more:active {
+    background-color: #fa4047;
+}
+
+/* end home admain style */
